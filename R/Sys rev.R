@@ -1,6 +1,6 @@
 library(foreign)
 
-jph <- read.spss("../SPSS of RCT dataset.sav", to.data.frame=TRUE)
+jph <- read.spss("../Data/SPSS of RCT dataset.sav", to.data.frame=TRUE)
 
 # A function to calculate the standard deviation of change using sd of baseline and follow-up measures
 sd_change <- function(base, final) {
